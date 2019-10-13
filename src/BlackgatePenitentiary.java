@@ -1,8 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.math.BigDecimal;
-import java.math.BigInteger;
 import java.util.*;
 
 public class BlackgatePenitentiary {
@@ -75,7 +73,6 @@ public class BlackgatePenitentiary {
         return result;
     }
 
-    // -------------------------------------------------- Fast Reader --------------------------------------------------
     private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static StringTokenizer st;
 
@@ -102,25 +99,5 @@ public class BlackgatePenitentiary {
 
     private static int nextInt() {
         return Integer.parseInt(next());
-    }
-
-    private static long nextLong() {
-        return Long.parseLong(next());
-    }
-
-    private static double nextDouble() {
-        return Double.parseDouble(next());
-    }
-
-    private static float nextFloat() {
-        return Float.parseFloat(next());
-    }
-
-    private static BigInteger nextBigInteger() {
-        return new BigInteger(next());
-    }
-
-    private static BigDecimal nextBigDecimal() {
-        return new BigDecimal(next());
     }
 }
