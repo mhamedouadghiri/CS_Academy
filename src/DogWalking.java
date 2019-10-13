@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class DogWalking {
     public static void main(String[] args) {
         int t = nextInt();
-        int N, K=0;
+        int N, K;
         List<Integer> sizes = new ArrayList<>();
         List<Integer> res = new ArrayList<>();
         List<Integer> differences = new ArrayList<>();
